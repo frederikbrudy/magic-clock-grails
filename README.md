@@ -8,7 +8,6 @@ To configure and set up the Grovy/Grails server edit the TODO's in the following
 - grails-app/conf/BootStrap.groovy
 - src/groovy/de/magicclock/{LocationTag, MagicClockColor}.groovy
 
-
 ____
 MagicClock, a clock that displays people's locations
 Copyright (C) 2012 www.magicclock.de
