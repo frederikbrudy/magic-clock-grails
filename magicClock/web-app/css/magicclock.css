@@ -1,0 +1,75 @@
+body {
+    background: #fff url(../images/skin/bg_texture.png) repeat; text-shadow: 0px
+-1px -1px #ffffff;
+    font-family: 'Open Sans',sans-serif;
+}
+
+a, a:active {
+    color: #383838;
+}
+
+a:hover, a:focus {
+    color: black;
+}
+
+
+h1, h2, h3, h4, h5 {
+    font-size: 300;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    padding-bottom:5px;
+    border-bottom:dotted 1px gray;
+}
+
+h1 {
+    font-size: 350;
+}
+
+
+table, th, td {
+    border: 1px solid  black;
+}
+
+/* BIO Magic Clock */
+.magicClockShowing {
+    background-color: #66ff66 !important;
+}
+
+.magicClockNotShowing {
+    background-color: #ff6666 !important;
+}
+
+.magicClockShowingButNotUpdating {
+    background-color: #ffff99 !important;
+}
+
+thead th {
+    background: none repeat scroll 0 0 #989898;
+}
+
+tbody tr:nth-child(2n) td, tbody tr.even td {
+    background: none repeat scroll 0 0 #dbdbdb;
+}
+
+/* PAGINATION */
+
+.paginateButtons {
+    /*background: #fff url(../images/skin/shadow.jpg) bottom repeat-x;*/
+    /*border: 1px solid #ccc;*/
+    /*border-top: 0;*/
+    color: #666;
+    font-size: 10px;
+    overflow: hidden;
+    padding: 10px 3px;
+}
+.paginateButtons a {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-color: #ccc #aaa #aaa #ccc;
+    color: #666;
+    margin: 0 3px;
+    padding: 2px 6px;
+}
+.paginateButtons span {
+    padding: 2px 3px;
+}
